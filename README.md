@@ -1,12 +1,16 @@
-[![Build Status](https://travis-ci.org/EOSIO/eosjs-fcbuffer.svg?branch=master)](https://travis-ci.org/EOSIO/eosjs-fcbuffer)
-[![Coverage Status](https://coveralls.io/repos/github/EOSIO/eosjs-fcbuffer/badge.svg?branch=master)](https://coveralls.io/github/EOSIO/eosjs-fcbuffer?branch=master)
+[![Build Status](https://travis-ci.org/Game-X-Coin/eosjs-fcbuffer-rn.svg?branch=master)](https://travis-ci.org/Game-X-Coin/eosjs-fcbuffer-rn)
+[![Coverage Status](https://coveralls.io/repos/github/Game-X-Coin/eosjs-fcbuffer-rn/badge.svg?branch=master)](https://coveralls.io/github/Game-X-Coin/eosjs-fcbuffer-rn?branch=master)
 [![NPM](https://img.shields.io/npm/v/fcbuffer.svg)](https://www.npmjs.org/package/fcbuffer)
+
+# FC Buffer for React Native
+
+Library based on [eosjs-fcbuffer](https://github.com/EOSIO/eosjs-fcbuffer), with React Native compatibility
 
 # FC Buffer
 
 Serialization library geared towards immutable data storage such as blockchains.
 
-For EOS compatible implementation use this library from [eosjs](https://github.com/eosio/eosjs) instead.
+For EOS compatible implementation use this library from [eosjs-rn](https://github.com/Game-X-Coin/eosjs-rn) instead.
 
 FC Buffer is a recent refactor from serialization code used in Bitshares and
 Steem.  Some of the serialization code was reduced and the definitions language
@@ -30,7 +34,7 @@ added.  The definition format may change.
 # Example
 
 ```javascript
-Fcbuffer = require('fcbuffer') // or: Fcbuffer = require('./src')
+Fcbuffer = require('fcbuffer-rn') // or: Fcbuffer = require('./src')
 
 assert = require('assert')
 
