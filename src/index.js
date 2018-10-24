@@ -1,3 +1,4 @@
+require('./globals');
 const Types = require('./types')
 const Fcbuffer = require('./fcbuffer')
 const assert = require('assert')
